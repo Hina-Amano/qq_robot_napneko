@@ -56,7 +56,7 @@ func main() {
 	// 连接 NapCatQQ
 	// 这是在调用一个函数，该函数返回3个值，用 := 同时接收
 	conn, _, err := websocket.DefaultDialer.Dial(
-		"ws://49.234.179.212:3001",
+		"ws://127.0.0.1:3001",
 		header,
 	)
 
