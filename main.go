@@ -36,7 +36,7 @@ type Action struct {
 
 func readSystemPrompt() string {
 	// 读取 prompt.md
-	data, err := os.ReadFile("sm_master_system_prompt.md")
+	data, err := os.ReadFile("./sm_master_system_prompt.md")
 	if err != nil {
 		log.Fatal("读取 prompt.md 失败:", err)
 	}
